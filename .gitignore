@@ -1,0 +1,76 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.psess
+*.vsp
+
+# Ignore build results
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild[Ll]og.*
+*.log
+[Ll]og/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+*.nuget.props
+*.lock
+project.lock.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+packages/
+.nuget/
+
+# Ignore Rider
+.idea/
+
+# Ignore ReSharper
+_ReSharper*/
+*.DotSettings.user
+*.[Rr]e[Ss]harper
+
+# Ignore user-specific files
+*.rsuser
+*.resharper
+
+# Ignore web config transforms
+*.transform
+
+# Ignore publish directory
+publish/
+wwwroot/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore test results
+[Tt]est[Rr]esult*/
+
+# Ignore other files and directories
+*.cache
+*.bak
+*.swp
+*~
+
+# Ignore appsettings files
+appsettings.Development.json
